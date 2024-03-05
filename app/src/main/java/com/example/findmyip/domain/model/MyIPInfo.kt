@@ -1,0 +1,31 @@
+package com.example.findmyip.domain.model
+
+data class MyIPInfo(
+    val asn: String?=null,
+    val city: String?=null,
+    val continent_code: String?=null,
+    val country: String?=null,
+    val country_area: Double=0.0,
+    val country_calling_code: String?=null,
+    val country_capital: String?=null,
+    val country_code: String?=null,
+    val country_code_iso3: String?=null,
+    val country_name: String?=null,
+    val country_population: Int?=null,
+    val country_tld: String?=null,
+    val currency: String?=null,
+    val currency_name: String?=null,
+    val in_eu: Boolean=false,
+    val ip: String?=null,
+    val languages: String?=null,
+    val latitude: Double=0.0,
+    val longitude: Double=0.0,
+    val network: String?=null,
+    val org: String?=null,
+    val postal: String?=null,
+    val region: String?=null,
+    val region_code: String?=null,
+    val timezone: String?=null,
+    val utc_offset: String?=null,
+    val version: String?=null
+)
