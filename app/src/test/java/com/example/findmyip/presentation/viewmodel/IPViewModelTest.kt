@@ -48,9 +48,10 @@ class IPViewModelTest {
 
     @Test
     fun getMYIpInfo() {
-        val data = MyIPInfo(city = "Bengaluru", region = "Karnataka")
+
 
         /*runTest {
+         val data = MyIPInfo(city = "Bengaluru", region = "Karnataka")
             Mockito.`when`(repository.getMyIpInfo()).thenReturn(APIResponse.Success(data = data))
 
             ipViewModel.getMyIpInfo()
